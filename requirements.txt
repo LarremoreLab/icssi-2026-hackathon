@@ -9,8 +9,5 @@ python-dotenv>=1.0
 jupyterlab>=4.0
 ipykernel>=6.29
 
-# tidy tables of cost and results in a couple of notebooks
-pandas>=2.0
-
 # slice specific pages out of a pdf before sending it to the api (notebook 02)
 pypdf>=4.0
