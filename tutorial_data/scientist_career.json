@@ -1,0 +1,30 @@
+{
+  "scientist_id": "S-00417",
+  "name": "Dr. Maya Okonkwo (synthetic example)",
+  "primary_field": "Science of Science / Computational Social Science",
+  "phd_year": 2011,
+  "phd_institution": "University of Example",
+  "affiliations": [
+    {"institution": "University of Example", "role": "PhD student", "start": 2006, "end": 2011},
+    {"institution": "Metropolitan Institute of Technology", "role": "Postdoc", "start": 2011, "end": 2014},
+    {"institution": "Boulder State University", "role": "Assistant Professor", "start": 2014, "end": 2020},
+    {"institution": "Boulder State University", "role": "Associate Professor", "start": 2020, "end": null}
+  ],
+  "metrics": {
+    "papers": 63,
+    "total_citations": 5840,
+    "h_index": 31,
+    "grants_awarded": 7,
+    "total_funding_usd": 4250000
+  },
+  "selected_papers": [
+    {"year": 2016, "title": "Mapping the migration of ideas across disciplines", "citations": 612},
+    {"year": 2019, "title": "Funding concentration and the topic diversity of a field", "citations": 388},
+    {"year": 2022, "title": "Career mobility networks predict future collaboration", "citations": 145}
+  ],
+  "collaboration_network": {
+    "distinct_coauthors": 214,
+    "countries_represented": 19,
+    "strongest_ties": ["S-00132", "S-01987", "S-00033"]
+  }
+}

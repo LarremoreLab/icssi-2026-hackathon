@@ -1,0 +1,42 @@
+[
+  {
+    "id": "P001",
+    "title": "Citation dynamics and the delayed recognition of scientific work",
+    "abstract": "We analyze 4.2 million papers to characterize how citations accrue over time. While most papers follow a rapid rise-and-decay pattern, a long tail of 'sleeping beauties' remain dormant for a decade or more before sudden recognition. We introduce a beauty coefficient and show that delayed-recognition papers are disproportionately interdisciplinary and more likely to be cited by patents. Our results suggest that short citation windows systematically undervalue boundary-spanning research."
+  },
+  {
+    "id": "P002",
+    "title": "Gender disparities in grant funding rates across a national science agency",
+    "abstract": "Using 18 years of proposal records from a national funding agency, we estimate gender gaps in award rates while controlling for field, career stage, and prior productivity. We find a persistent gap of 3.2 percentage points concentrated at the early-career stage and driven largely by differences in resubmission behavior. A natural experiment around an anonymized-review pilot reduces the gap by half, pointing to evaluation rather than proposal quality as a key mechanism."
+  },
+  {
+    "id": "P003",
+    "title": "Team size and the production of disruptive versus developmental science",
+    "abstract": "Small teams and large teams play different roles in science. Analyzing 65 million papers, patents, and software products, we show that smaller teams tend to disrupt existing paradigms by introducing new ideas, whereas larger teams tend to develop and consolidate them. The effect is robust across fields and time and is not explained by differences in citation practices. We discuss implications for how funding portfolios should balance exploration and exploitation."
+  },
+  {
+    "id": "P004",
+    "title": "Geographic mobility of early-career researchers and its effect on impact",
+    "abstract": "We track the institutional affiliations of 1.1 million PhD recipients to measure how relocation early in a career relates to subsequent scholarly impact. Movers experience a short-term productivity dip followed by a durable increase in citation impact relative to matched stayers. The benefit is largest for moves that increase access to specialized equipment and collaboration networks, and is attenuated in fields with low equipment intensity."
+  },
+  {
+    "id": "P005",
+    "title": "A patent-to-paper linkage dataset for tracing science-technology flows",
+    "abstract": "We release an open dataset linking 12 million patents to the scientific articles they cite, disambiguated to author and institution level. We document a widening time lag between basic research and its first patent citation over the past three decades, with notable heterogeneity across technology classes. The dataset enables fine-grained study of how public science feeds private innovation and where those flows have weakened."
+  },
+  {
+    "id": "P006",
+    "title": "Replication outcomes and their relationship to original effect sizes",
+    "abstract": "We assemble 540 replication attempts across the social and behavioral sciences and model the probability of successful replication as a function of original p-value, effect size, sample size, and venue prestige. Replication success is most strongly predicted by original statistical power, not venue prestige. We find weak evidence that registered-report originals replicate at higher rates, and we provide a calibrated risk score for prioritizing future replications."
+  },
+  {
+    "id": "P007",
+    "title": "Open-access mandates and downstream readership in low-income countries",
+    "abstract": "Exploiting the staggered adoption of open-access mandates by funders, we estimate the causal effect of mandated openness on readership and citation from institutions in low- and middle-income countries. Mandated articles see a 27% increase in downloads from these regions and a smaller but significant citation increase concentrated in applied fields. Effects are larger where institutional subscription access was historically weakest."
+  },
+  {
+    "id": "P008",
+    "title": "Large language models as referees: agreement with human peer review",
+    "abstract": "We evaluate whether language models can approximate human peer-review judgments on a corpus of conference submissions with known outcomes. Model-generated reviews agree with the human accept/reject decision at rates comparable to a second human reviewer, but systematically underweight novelty and overweight presentation quality. We caution against deployment in consequential decisions and propose a human-in-the-loop triage use case instead."
+  }
+]

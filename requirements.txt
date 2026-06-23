@@ -1,0 +1,16 @@
+# core sdk, talks to the claude api
+anthropic>=0.49
+
+# loads ANTHROPIC_API_KEY from a local .env file
+python-dotenv>=1.0
+
+# run the notebooks locally: jupyterlab gives the `jupyter lab` command
+# (vs code and cursor users only need ipykernel, which jupyterlab pulls in)
+jupyterlab>=4.0
+ipykernel>=6.29
+
+# tidy tables of cost and results in a couple of notebooks
+pandas>=2.0
+
+# slice specific pages out of a pdf before sending it to the api (notebook 02)
+pypdf>=4.0
