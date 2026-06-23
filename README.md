@@ -27,9 +27,9 @@ These are templates to fork for your own project.
 
 | # | Notebook | What is inside |
 |---|----------|---------------|
-| 10 | [`take_home/10_fundamentals.ipynb`](take_home/10_fundamentals.ipynb) | The Messages API, statelessness, streaming, and error handling. |
-| 11 | [`take_home/11_structured_and_tools.ipynb`](take_home/11_structured_and_tools.ipynb) | Getting reliable JSON out and defining your own tools. |
-| 12 | [`take_home/12_interactive_vs_noninteractive.ipynb`](take_home/12_interactive_vs_noninteractive.ipynb) | Interactive chat versus an unattended agent that loops over rounds. |
+| 10 | [`take_home_tutorials/10_fundamentals.ipynb`](take_home_tutorials/10_fundamentals.ipynb) | The Messages API, statelessness, streaming, and error handling. |
+| 11 | [`take_home_tutorials/11_structured_and_tools.ipynb`](take_home_tutorials/11_structured_and_tools.ipynb) | Getting reliable JSON out and defining your own tools. |
+| 12 | [`take_home_tutorials/12_interactive_vs_noninteractive.ipynb`](take_home_tutorials/12_interactive_vs_noninteractive.ipynb) | Interactive chat versus an unattended agent that loops over rounds. |
 | 99 | [`99_capstone_template.ipynb`](99_capstone_template.ipynb) | A minimal end-to-end project skeleton. Start here for your hack. |
 
 The file `claude_kit.py` holds small helper classes (`ClaudeClient`, `CostTracker`,
@@ -78,6 +78,6 @@ are git-ignored.
 
 ## Models used here
 
-The default is Claude Opus 4.8 (`claude-opus-4-8`). The cost notebook also uses
-Sonnet 4.6 (`claude-sonnet-4-6`) and Haiku 4.5 (`claude-haiku-4-5`) to show the tradeoff
-between quality and price.
+The default is Claude Sonnet 4.6 (`claude-sonnet-4-6`). The cost notebook also uses
+Opus 4.8 (`claude-opus-4-8`) and Haiku 4.5 (`claude-haiku-4-5`) to show the tradeoff
+between quality and price. Take-home notebooks default to Haiku to minimize cost.
