@@ -30,7 +30,6 @@ These are templates to fork for your own project.
 | 10 | [`take_home_tutorials/10_fundamentals.ipynb`](take_home_tutorials/10_fundamentals.ipynb) | The Messages API, statelessness, streaming, and error handling. |
 | 11 | [`take_home_tutorials/11_structured_and_tools.ipynb`](take_home_tutorials/11_structured_and_tools.ipynb) | Getting reliable JSON out and defining your own tools. |
 | 12 | [`take_home_tutorials/12_interactive_vs_noninteractive.ipynb`](take_home_tutorials/12_interactive_vs_noninteractive.ipynb) | Interactive chat versus an unattended agent that loops over rounds. |
-| 99 | [`99_capstone_template.ipynb`](99_capstone_template.ipynb) | A minimal end-to-end project skeleton. Start here for your hack. |
 
 The file `claude_kit.py` holds small helper classes (`ClaudeClient`, `CostTracker`,
 `Conversation`, and `Agent`) used across the notebooks so that your own code stays short.
