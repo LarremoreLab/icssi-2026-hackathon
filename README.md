@@ -7,37 +7,9 @@ collaboration networks.
 
 You can run everything in your browser with Google Colab (zero install) or locally.
 
-> Note that this costs a little real money. Each notebook makes live API calls. The whole
-> tutorial runs for well under one dollar on your own key. We track spend live with a
-> `CostTracker` so you always see what you are spending.
-
-## The 30-minute live path
-
-Run these three notebooks in order.
-
-| # | Notebook | What you learn |
-|---|----------|----------------|
-| 0 | [`00_setup.ipynb`](00_setup.ipynb) | Make your first API call and read token usage. |
-| 1 | [`01_cost.ipynb`](01_cost.ipynb) | Minimize cost: tokens, pricing, model tiering, prompt caching, and the Batch API. |
-| 2 | [`02_web_and_documents.ipynb`](02_web_and_documents.ipynb) | Web search and fetch, plus reading a PDF and summarizing it. |
-
-## Take-home notebooks
-
-These are templates to fork for your own project.
-
-| # | Notebook | What is inside |
-|---|----------|---------------|
-| 10 | [`take_home_tutorials/10_fundamentals.ipynb`](take_home_tutorials/10_fundamentals.ipynb) | The Messages API, statelessness, streaming, and error handling. |
-| 11 | [`take_home_tutorials/11_structured_and_tools.ipynb`](take_home_tutorials/11_structured_and_tools.ipynb) | Getting reliable JSON out and defining your own tools. |
-| 12 | [`take_home_tutorials/12_interactive_vs_noninteractive.ipynb`](take_home_tutorials/12_interactive_vs_noninteractive.ipynb) | Interactive chat versus an unattended agent that loops over rounds. |
-
-The file `claude_kit.py` holds small helper classes (`ClaudeClient`, `CostTracker`,
-`Conversation`, and `Agent`) used across the notebooks so that your own code stays short.
-
 ## Option A: Google Colab (nothing to install)
 
-1. Open a notebook in Colab. Once this repo is on GitHub you can add an "Open in Colab"
-   badge per notebook, or use File then Open notebook then GitHub and paste the repo URL.
+1. Open Google Colab > File > Open notebook > GitHub > paste the repo URL > select the notebook(s).
 2. Get an API key at <https://console.anthropic.com/> under Settings then API Keys.
 3. In Colab, click the Secrets panel (the key icon in the left sidebar), add a secret
    named `ANTHROPIC_API_KEY`, and turn on notebook access.
@@ -68,12 +40,32 @@ You do not need Docker or conda. Python 3.10 or newer is required. If you use VS
 Cursor, open the folder and select the `.venv` interpreter as your kernel instead of
 launching JupyterLab.
 
-## Getting a key and staying safe
+> Note that this costs a little real money. Each notebook makes live API calls. The whole
+> tutorial runs for well under one dollar on your own key. We track spend live with a
+> `CostTracker` so you always see what you are spending.
 
-Keys live at <https://console.anthropic.com/>. Set a spend limit on your account. Your key
-is a password, so do not paste it into a notebook cell, a screenshot, or a chat. Use the
-`.env` file when running locally or the Colab Secrets panel when running in Colab. Both
-are git-ignored.
+## Live demos
+
+Run these three notebooks in order.
+
+| # | Notebook | What you learn |
+|---|----------|----------------|
+| 0 | [`00_setup.ipynb`](00_setup.ipynb) | Make your first API call and read token usage. |
+| 1 | [`01_cost.ipynb`](01_cost.ipynb) | Minimize cost: tokens, pricing, model tiering, prompt caching, and the Batch API. |
+| 2 | [`02_web_and_documents.ipynb`](02_web_and_documents.ipynb) | Web search and fetch, plus reading a PDF and summarizing it. |
+
+## Take-home notebooks
+
+These are templates to fork for your own project.
+
+| # | Notebook | What is inside |
+|---|----------|---------------|
+| 10 | [`take_home_tutorials/10_fundamentals.ipynb`](take_home_tutorials/10_fundamentals.ipynb) | The Messages API, statelessness, streaming, and error handling. |
+| 11 | [`take_home_tutorials/11_structured_and_tools.ipynb`](take_home_tutorials/11_structured_and_tools.ipynb) | Getting reliable JSON out and defining your own tools. |
+| 12 | [`take_home_tutorials/12_interactive_vs_noninteractive.ipynb`](take_home_tutorials/12_interactive_vs_noninteractive.ipynb) | Interactive chat versus an unattended agent that loops over rounds. |
+
+The file `claude_kit.py` holds small helper classes (`ClaudeClient`, `CostTracker`,
+`Conversation`, and `Agent`) used across the notebooks so that your own code stays short.
 
 ## Models used here
 
