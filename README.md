@@ -11,3 +11,5 @@ Please add your team's information in this [Google Sheet](https://docs.google.co
 - B231 (2nd floor near stairs -- great views!)
 - B331 (3rd floor near stairs -- great views!)
 
+# SRAD Data and Dimensions Claude Skills
+Thanks to Digital Science for this [Google Drive of resources](https://drive.google.com/drive/folders/1kTyfbzwaWoerxHRipSMyqcY3WbWqE7r7?usp=sharing).
